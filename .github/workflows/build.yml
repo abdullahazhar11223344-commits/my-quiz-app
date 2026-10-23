@@ -41,7 +41,7 @@ jobs:
         pip install --user Cython==0.29.36 buildozer
 
     - name: Build with Buildozer
-      run: ~/.local/bin/buildozer -v android debug
+      run: ~/.local/bin/buildozer -d android debug
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
