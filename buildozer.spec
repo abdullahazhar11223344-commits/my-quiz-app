@@ -9,3 +9,4 @@ requirements = python3, kivy
 orientation = portrait
 osx.python_version = 3
 fullscreen = 0
+android.accept_sdk_license = True
